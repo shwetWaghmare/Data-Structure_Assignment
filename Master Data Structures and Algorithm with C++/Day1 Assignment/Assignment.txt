@@ -1,0 +1,18 @@
+Q1.Find the time complexity for the following code snippet: 
+   a = 1; 
+   b = 1; 
+   while(b <= n) 
+	{ 
+	  a = a + 1; 
+	  b = b + a; 
+	  cout<<"Hi"; 
+	} 
+
+Ans: T(n)=O(√n)
+
+
+Q2. Find the time complexity for the following code snippet: 
+	for(i = n; i >= 1; i = i/3) 
+	cout<<"Hi";
+
+Ans: O(log n)
